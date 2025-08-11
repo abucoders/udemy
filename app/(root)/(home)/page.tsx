@@ -1,5 +1,5 @@
 const HomePage = () => {
-  return <div className="m-1 p-2 text-xl font-bold">HomePage</div>;
+  return <div className="font-spaceGrotesk m-1 p-2 text-xl">HomePage</div>;
 };
 
 export default HomePage;
