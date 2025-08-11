@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Roboto, Space_Grotesk } from "next/font/google";
 
 import "./globals.css";
+import { ThemeProvider } from "@/components/providers/theme-provider";
 import { ChildProps } from "@/types";
 
 const roboto = Roboto({
@@ -17,17 +18,24 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "UDEMY - Startup",
+  title: "ABUcorse - Startup",
   description: "Startup Praktikum's Next.js project",
 };
 
 export default function RootLayout({ children }: ChildProps) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={`${roboto.variable} ${spaceGrotesk.variable} overflow-x-hidden antialiased`}
       >
-        {children}
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="dark"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );
