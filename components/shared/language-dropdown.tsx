@@ -3,6 +3,7 @@
 import { Languages } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { useLocale } from "next-intl";
 
 import { lngs } from "@/constants";
 import { cn } from "@/lib/utils";
@@ -17,10 +18,12 @@ import {
 } from "../ui/dropdown-menu";
 
 export const LanguageDropdown = () => {
+  const locale = useLocale();
+
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant={"ghost"} size={"icon"} className={"gap-2"}>
+        <Button variant="ghost" size="icon" className="gap-2">
           <Languages />
         </Button>
       </DropdownMenuTrigger>
@@ -28,24 +31,22 @@ export const LanguageDropdown = () => {
       <DropdownMenuContent className="w-56">
         <DropdownMenuGroup>
           {lngs.map((language) => (
-            <DropdownMenuItem
-              key={language.route}
-              className={cn("cursor-pointer")}
-            >
-              <Link
-                href={"/uz"}
-                className="font-spaceGrotesk flex w-full gap-2 font-medium"
+            <Link key={language.route} href={`/${language.route}`}>
+              <DropdownMenuItem
+                className={cn(
+                  "font-spaceGrotesk flex w-full gap-2 font-medium",
+                  locale === language.route && "bg-secondary",
+                )}
               >
                 <Image
                   src={`/assets/locales/${language.route}.png`}
                   alt={language.route}
                   width={25}
                   height={20}
-                  className="size-[20]"
                 />
                 <span>{language.label}</span>
-              </Link>
-            </DropdownMenuItem>
+              </DropdownMenuItem>
+            </Link>
           ))}
         </DropdownMenuGroup>
       </DropdownMenuContent>

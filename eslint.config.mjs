@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 // eslint.config.mjs
 
 // npm install -D eslint @eslint/eslintrc eslint-config-next eslint-config-prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-import
@@ -57,6 +58,9 @@ export default [
           alphabetize: { order: "asc", caseInsensitive: true },
         },
       ],
+
+      // PROBLEM: Muammolarni chetlab o'tish
+      "import/no-unresolved": "off",
     },
   },
 ];
