@@ -2,10 +2,10 @@ import { Contact, Home, ListVideo, Rss } from "lucide-react";
 
 // Navbar links
 export const navLinks = [
-  { route: "", name: "Home", icon: Home },
-  { route: "courses", name: "Courses", icon: ListVideo },
-  { route: "blogs", name: "Blogs", icon: Rss },
-  { route: "contacts", name: "Contracts", icon: Contact },
+  { route: "", name: "navLink1", icon: Home },
+  { route: "courses", name: "navLink2", icon: ListVideo },
+  { route: "blogs", name: "navLink3", icon: Rss },
+  { route: "contacts", name: "navLink4", icon: Contact },
 ];
 
 // Langs

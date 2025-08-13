@@ -2,5 +2,15 @@
   "HomePage": {
     "title": "Assalomu alaykum!",
     "about": "About sahifaga hush kelibsiz"
-  }
+  },
+
+  "NavbarLink": {
+    "navLink1": "Bosh sahifa",
+    "navLink2": "Kurslar",
+    "navLink3": "Bloglar",
+    "navLink4": "Aloqa"
+  },
+
+  "manageAccount": "Profilni boshqarish",
+  "logout": "Chiqish"
 }

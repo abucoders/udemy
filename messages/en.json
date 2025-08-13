@@ -2,5 +2,15 @@
   "HomePage": {
     "title": "Hello world!",
     "about": "Go to the about page"
-  }
+  },
+
+  "NavbarLink": {
+    "navLink1": "Home",
+    "navLink2": "Courses",
+    "navLink3": "Blogs",
+    "navLink4": "Contact"
+  },
+
+  "manageAccount": "Manage account",
+  "logout": "Log Out"
 }
