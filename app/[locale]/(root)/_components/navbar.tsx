@@ -1,3 +1,4 @@
+import { SignInButton, SignUpButton } from "@clerk/nextjs";
 import { ShoppingCart } from "lucide-react";
 import Link from "next/link";
 
@@ -49,12 +50,21 @@ const Navbar = () => {
             </div>
           </div>
 
-          <Button variant={"outline"} size={"lg"} rounded={"full"}>
-            Log in
-          </Button>
-          <Button size={"lg"} rounded={"full"} className="dark:text-foreground">
-            Sign up
-          </Button>
+          <SignInButton mode="modal">
+            <Button variant={"outline"} size={"lg"} rounded={"full"}>
+              Log in
+            </Button>
+          </SignInButton>
+
+          <SignUpButton mode="modal">
+            <Button
+              size={"lg"}
+              rounded={"full"}
+              className="dark:text-foreground"
+            >
+              Sign up
+            </Button>
+          </SignUpButton>
         </div>
       </div>
     </nav>

@@ -1,4 +1,5 @@
 import { ClerkProvider } from "@clerk/nextjs";
+import { shadcn } from "@clerk/themes";
 import type { Metadata } from "next";
 // eslint-disable-next-line import/order
 import { Roboto, Space_Grotesk } from "next/font/google";
@@ -42,7 +43,12 @@ export default async function RootLayout({
   }
 
   return (
-    <ClerkProvider dynamic>
+    <ClerkProvider
+      dynamic
+      appearance={{
+        baseTheme: shadcn,
+      }}
+    >
       <html lang={locale} suppressHydrationWarning>
         <body
           className={`${roboto.variable} ${spaceGrotesk.variable} overflow-x-hidden antialiased`}
