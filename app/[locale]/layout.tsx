@@ -1,3 +1,4 @@
+import { ClerkProvider } from "@clerk/nextjs";
 import type { Metadata } from "next";
 // eslint-disable-next-line import/order
 import { Roboto, Space_Grotesk } from "next/font/google";
@@ -8,7 +9,7 @@ import { hasLocale, NextIntlClientProvider } from "next-intl";
 
 import { ThemeProvider } from "@/components/providers/theme-provider";
 import { routing } from "@/i18n/routing";
-import { ChildProps, LngParams } from "@/types";
+import { ChildProps } from "@/types";
 
 const roboto = Roboto({
   variable: "--font-roboto",
@@ -27,30 +28,37 @@ export const metadata: Metadata = {
   description: "Startup Praktikum's Next.js project",
 };
 
-interface RootLayoutProps extends ChildProps, LngParams {}
+interface RootLayoutProps extends ChildProps {
+  params: Promise<{ locale: string }>;
+}
 
-export default function RootLayout({ children, params }: RootLayoutProps) {
-  const { locale } = params;
+export default async function RootLayout({
+  children,
+  params,
+}: RootLayoutProps) {
+  const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
 
   return (
-    <html lang={locale} suppressHydrationWarning>
-      <body
-        className={`${roboto.variable} ${spaceGrotesk.variable} overflow-x-hidden antialiased`}
-      >
-        <NextIntlClientProvider>
-          <ThemeProvider
-            attribute="class"
-            defaultTheme="dark"
-            enableSystem
-            disableTransitionOnChange
-          >
-            {children}
-          </ThemeProvider>
-        </NextIntlClientProvider>
-      </body>
-    </html>
+    <ClerkProvider dynamic>
+      <html lang={locale} suppressHydrationWarning>
+        <body
+          className={`${roboto.variable} ${spaceGrotesk.variable} overflow-x-hidden antialiased`}
+        >
+          <NextIntlClientProvider>
+            <ThemeProvider
+              attribute="class"
+              defaultTheme="dark"
+              enableSystem
+              disableTransitionOnChange
+            >
+              {children}
+            </ThemeProvider>
+          </NextIntlClientProvider>
+        </body>
+      </html>
+    </ClerkProvider>
   );
 }

@@ -3,7 +3,5 @@ export interface ChildProps {
 }
 
 export interface LngParams {
-  params: {
-    locale: string;
-  };
+  params: Promise<{ locale: string }>;
 }
