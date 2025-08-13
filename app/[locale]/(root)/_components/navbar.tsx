@@ -1,10 +1,3 @@
-import {
-  SignedIn,
-  SignedOut,
-  SignInButton,
-  SignUpButton,
-  UserButton,
-} from "@clerk/nextjs";
 import { ShoppingCart } from "lucide-react";
 import Link from "next/link";
 
@@ -16,8 +9,12 @@ import { navLinks } from "@/constants";
 import { cn } from "@/lib/utils";
 
 import GlobalSearch from "./global-search";
+import AuthButton from "./auth-button";
+import { getTranslations } from "next-intl/server";
 
-const Navbar = () => {
+const Navbar = async () => {
+  const t = await getTranslations("NavbarLink");
+
   return (
     <nav className="bg-background/70 fixed inset-0 z-10 h-20 backdrop-blur-xl">
       <div className="container mx-auto flex h-full max-w-7xl items-center justify-between border-b">
@@ -33,7 +30,7 @@ const Navbar = () => {
                   "hover:text-primary font-medium transition-all hover:underline",
                 )}
               >
-                {nav.name}
+                {t(nav.name)}
               </Link>
             ))}
           </div>
@@ -56,27 +53,8 @@ const Navbar = () => {
             </div>
           </div>
 
-          <SignedIn>
-            <UserButton />
-          </SignedIn>
-
-          <SignedOut>
-            <SignInButton mode="modal">
-              <Button variant={"outline"} size={"lg"} rounded={"full"}>
-                Log in
-              </Button>
-            </SignInButton>
-
-            <SignUpButton mode="modal">
-              <Button
-                size={"lg"}
-                rounded={"full"}
-                className="dark:text-foreground"
-              >
-                Sign up
-              </Button>
-            </SignUpButton>
-          </SignedOut>
+          {/* Auth Button */}
+          <AuthButton />
         </div>
       </div>
     </nav>
