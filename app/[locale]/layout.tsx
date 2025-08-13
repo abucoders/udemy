@@ -10,6 +10,7 @@ import { hasLocale, NextIntlClientProvider } from "next-intl";
 
 import { ThemeProvider } from "@/components/providers/theme-provider";
 import { routing } from "@/i18n/routing";
+import { localization } from "@/lib/utils";
 import { ChildProps } from "@/types";
 
 const roboto = Roboto({
@@ -48,6 +49,7 @@ export default async function RootLayout({
       appearance={{
         baseTheme: shadcn,
       }}
+      localization={localization(locale)}
     >
       <html lang={locale} suppressHydrationWarning>
         <body
