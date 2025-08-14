@@ -15,5 +15,18 @@
   "logIn": "Giriş yap",
   "logout": "Çıkış Yap",
   "signUp": "Kaydol",
-  "cyrrentLng": "Türkçe"
+  "cyrrentLng": "Türkçe",
+
+  "Hero": {
+    "title": "Kariyerinizi yönlendirecek becerileri",
+    "titleSpan": "öğrenin",
+    "description": "Dünyanın önde gelen uzmanlarından ücretsiz online kurslar. Bugün 17 milyon öğrenciye katılın"
+  },
+
+  "Blog": {
+    "title": "Bloglar",
+    "description": "Kurslarımız ve eğitmenlerimiz hakkında daha fazla bilgi edinmek için en son bloglarımızı okuyun."
+  },
+
+  "findCourses": "Kursları Bul"
 }

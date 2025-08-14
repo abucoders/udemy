@@ -1,4 +1,19 @@
 import { Contact, Home, ListVideo, Rss } from "lucide-react";
+import {
+  DiCisco,
+  DiCreativecommonsBadge,
+  DiDjango,
+  DiDocker,
+  DiGhost,
+  DiGithubFull,
+  DiLess,
+  DiMailchimp,
+  DiMeteorfull,
+  DiNetmagazine,
+  DiNginx,
+  DiStylus,
+  DiYahoo,
+} from "react-icons/di";
 
 // Navbar links
 export const navLinks = [
@@ -14,4 +29,21 @@ export const lngs = [
   { route: "uz", label: "O'zbekcha" },
   { route: "ru", label: "Русский" },
   { route: "tr", label: "Turkce" },
+];
+
+//
+export const companies = [
+  DiCisco,
+  DiCreativecommonsBadge,
+  DiGhost,
+  DiGithubFull,
+  DiMeteorfull,
+  DiLess,
+  DiMailchimp,
+  DiNetmagazine,
+  DiNginx,
+  DiStylus,
+  DiYahoo,
+  DiDjango,
+  DiDocker,
 ];

@@ -15,5 +15,18 @@
   "logIn": "Log in",
   "logout": "Log Out",
   "signUp": "Sign Up",
-  "cyrrentLng": "English"
+  "cyrrentLng": "English",
+
+  "Hero": {
+    "title": "Master the skills to drive your",
+    "titleSpan": "career",
+    "description": "Free online courses from the world’s leading experts. Join 17 million learners today"
+  },
+
+  "Blog": {
+    "title": "Blogs",
+    "description": "Read our latest blogs to learn more about our courses and instructors."
+  },
+
+  "findCourses": "Find Courses"
 }

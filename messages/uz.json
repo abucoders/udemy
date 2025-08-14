@@ -15,5 +15,18 @@
   "logout": "Chiqish",
   "logIn": "Kirish",
   "signUp": "Ro'yxatdan o'tish",
-  "cyrrentLng": "O'zbek"
+  "cyrrentLng": "O'zbek",
+
+  "Hero": {
+    "title": "Zamonaviy kasblarni o'rganish uchun ko'nikmalarga",
+    "titleSpan": "ega bo'ling",
+    "description": "Dunyaning eng yuqori ta'lab ko'p texnalogiyalarni onlayn bepul o'rganing. Bugundan o'rganishni boshlang!"
+  },
+
+  "Blog": {
+    "title": "Bloglar",
+    "description": "Kurslarimiz va o'qituvchilarimiz haqida ko'proq ma'lumot olish uchun eng so'nggi bloglarimizni o'qing."
+  },
+
+  "findCourses": "Kurslarni toping"
 }
