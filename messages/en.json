@@ -12,5 +12,8 @@
   },
 
   "manageAccount": "Manage account",
-  "logout": "Log Out"
+  "logIn": "Log in",
+  "logout": "Log Out",
+  "signUp": "Sign Up",
+  "cyrrentLng": "English"
 }

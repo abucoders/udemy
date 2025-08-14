@@ -3,7 +3,7 @@
 import { Languages } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { useLocale } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 import { lngs } from "@/constants";
 import { cn } from "@/lib/utils";
@@ -17,14 +17,29 @@ import {
   DropdownMenuTrigger,
 } from "../ui/dropdown-menu";
 
-export const LanguageDropdown = () => {
+interface Props {
+  isMobile?: boolean;
+}
+
+export const LanguageDropdown = ({ isMobile }: Props) => {
   const locale = useLocale();
+  const t = useTranslations();
 
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="ghost" size="icon" className="gap-2">
+        <Button
+          variant={isMobile ? "default" : "ghost"}
+          size="icon"
+          className={`${isMobile && "w-full text-white"} gap-2`}
+        >
           <Languages />
+
+          {isMobile && (
+            <span className="font-spaceGrotesk text-sm font-medium">
+              {t("cyrrentLng")}
+            </span>
+          )}
         </Button>
       </DropdownMenuTrigger>
 

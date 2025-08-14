@@ -1,17 +1,17 @@
 "use client";
 
 import { SignOutButton, useUser } from "@clerk/nextjs";
+import { DropdownMenuTrigger } from "@radix-ui/react-dropdown-menu";
+import Link from "next/link";
+import { useTranslations } from "next-intl";
+
+import { Avatar, AvatarImage } from "../ui/avatar";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
 } from "../ui/dropdown-menu";
-import { DropdownMenuTrigger } from "@radix-ui/react-dropdown-menu";
-import Link from "next/link";
-import { Avatar, AvatarImage } from "../ui/avatar";
-import { useTranslations } from "next-intl";
 import { Separator } from "../ui/separator";
-import { LogOut } from "lucide-react";
 
 function UserBox() {
   const { user } = useUser();

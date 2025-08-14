@@ -12,5 +12,8 @@
   },
 
   "manageAccount": "Profilni boshqarish",
-  "logout": "Chiqish"
+  "logout": "Chiqish",
+  "logIn": "Kirish",
+  "signUp": "Ro'yxatdan o'tish",
+  "cyrrentLng": "O'zbek"
 }

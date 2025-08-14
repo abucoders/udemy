@@ -12,5 +12,8 @@
   },
 
   "manageAccount": "Hesabı yönet",
-  "logout": "Çıkış Yap"
+  "logIn": "Giriş yap",
+  "logout": "Çıkış Yap",
+  "signUp": "Kaydol",
+  "cyrrentLng": "Türkçe"
 }
