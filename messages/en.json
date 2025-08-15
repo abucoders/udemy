@@ -1,7 +1,7 @@
 {
   "HomePage": {
-    "title": "Hello world!",
-    "about": "Go to the about page"
+    "title": "Hello!",
+    "about": "Welcome to the About page"
   },
 
   "NavbarLink": {
@@ -11,16 +11,18 @@
     "navLink4": "Contact"
   },
 
-  "manageAccount": "Manage account",
-  "logIn": "Log in",
+  "manageAccount": "Manage Profile",
   "logout": "Log Out",
+  "logIn": "Log In",
   "signUp": "Sign Up",
-  "cyrrentLng": "English",
+  "cyrrentLng": "Uzbek",
 
   "Hero": {
-    "title": "Master the skills to drive your",
-    "titleSpan": "career",
-    "description": "Free online courses from the world’s leading experts. Join 17 million learners today"
+    "title": "Skills to learn modern professions",
+    "titleSpan": "gain them",
+    "description": "Learn the world’s most in-demand technologies online for free. Start learning today!",
+    "joinForFree": "Join for Free",
+    "findCourses": "Find Courses"
   },
 
   "Blog": {
@@ -28,5 +30,254 @@
     "description": "Read our latest blogs to learn more about our courses and instructors."
   },
 
-  "findCourses": "Find Courses"
+  "ExploreCourse": {
+    "title": "Explore Popular Courses",
+    "description": "Course designs tailored for you"
+  },
+
+  "Categorie": {
+    "cateogry1": "All",
+    "cateogry2": "Newest",
+    "cateogry3": "Lowest Price",
+    "cateogry4": "Highest Price"
+  },
+
+  "TopCategories": {
+    "title": "Top Categories",
+    "description": "Explore the top categories",
+    "viewAll": "View All"
+  },
+
+  "Instructors": {
+    "learnFromBest": "Learn from the Best Instructors",
+    "description": "At ABU.course, we have the best instructors in the world with millions of students.",
+    "becomeInstructor1": "Want to help people learn, grow, and achieve more?",
+    "becomeInstructor2": "Become an Instructor"
+  },
+
+  "Journey": {
+    "title": "Start your learning journey today!",
+    "description": "Our platform is designed to help you learn and grow. Our goal is to help you achieve your goals."
+  },
+
+  "StartLearning": {
+    "title1": "Learn with Experts",
+    "title2": "Learn Anything",
+    "title3": "Flexible Learning",
+    "title4": "Industry Standards",
+    "desc1": "Our platform is built to help you learn and grow.",
+    "desc2": "Want to learn a new skill?",
+    "desc3": "Learn at your own pace from a comfortable place.",
+    "desc4": "Our courses are developed according to standards."
+  },
+
+  "Footer": {
+    "pages": "Pages",
+    "contacts": "Contact",
+    "copyright": "All rights reserved"
+  },
+
+  "CourseFilters": {
+    "level1": "All",
+    "level2": "Beginner",
+    "level3": "Intermediate",
+    "level4": "Advanced",
+    "level5": "Expert",
+    "sortBy": "Sort By:",
+    "filter": "Filter",
+    "level": "Level"
+  },
+
+  "CourseList": {
+    "allCourses": "All Courses",
+    "allCourseDescription": "We offer comprehensive courses for your learning and development.",
+    "result1": "Showing",
+    "result2": "total results",
+    "results": "Results",
+    "loadMore": "Load More",
+    "noCourses": "No courses to display",
+    "noCourseDescription": "Find the right courses for you! 🚀 Currently, we have no courses matching your request. Coming soon! 💡"
+  },
+
+  "CourseDetails": {
+    "students": "Students",
+    "lastUpdated": "Last Updated",
+    "whatYouWillLearn": "What You Will Learn",
+    "courseContent": "Course Content",
+    "courseForWhom": "Who This Course is For",
+    "reviewCourse": "Review This Course",
+    "review": "review",
+    "lessons": "Lessons",
+    "durations": "Duration",
+    "skillLevel": "Skill Level",
+    "language": "Language",
+    "certificate": "Certificate",
+    "fullLifetime": "Full Lifetime Access",
+    "hours": "hours",
+    "minutes": "minutes",
+    "numberOfModules": "Number of Modules",
+    "numberOfLessons": "Number of Lessons",
+    "courseDuration": "Course Duration",
+    "category": "Category",
+    "requirements": "Requirements",
+    "youMayLike": "You May Also Like",
+    "addToCart": "Add to Cart",
+    "buyNow": "Buy Now",
+    "guarantee": "30-day money-back guarantee"
+  },
+
+  "Reviews": {
+    "noReviews": "No reviews available to display",
+    "noReviewsDescription": "There are no reviews for this course yet. 🚀 Be the first to leave a review. Every feedback matters to us! 💡",
+    "changeReview": "You can change your opinion and review this course",
+    "whyReview": "Why did you give this rating?",
+    "rateCourse": "How would you rate this course?",
+    "reviewPlaceholder": "Leave your thoughts about this course. Does it suit you?",
+    "submit": "Submit",
+    "change": "Edit",
+    "alreadyAdded": "Course already added"
+  },
+
+  "Cart": {
+    "shoppingCart": "Shopping Cart",
+    "youHave": "You have",
+    "itemsInCart": "items in your cart",
+    "cartEmpty": "Your cart is empty",
+    "cartDescription": "Looks like you haven’t added any products to your cart yet.",
+    "controlsResult": "Manage items in your cart.",
+    "subtotal": "Subtotal",
+    "taxes": "Taxes",
+    "total": "Total (with Tax)",
+    "checkout": "Checkout",
+    "fillDetails": "Enter your details to complete the order.",
+    "orders": "Orders",
+    "reviewItems": "Review the items in your cart.",
+    "orderCompleted": "Your order has been completed!",
+    "thanksOrder": "Thank you. Your order has been received.",
+    "order": "Order Number",
+    "date": "Date",
+    "totals": "Total",
+    "paymentMethod": "Payment Method"
+  },
+
+  "Dashboard": {
+    "dashboard": "Dashboard",
+    "myCourses": "My Courses",
+    "wishlist": "Wishlist",
+    "creditCards": "Credit Cards",
+    "reviews": "Reviews",
+    "settings": "Settings",
+    "welcomeDashboard": "Welcome to your dashboard",
+    "expenses": "Expenses",
+    "cards": "Cards",
+    "myCoursesDescription": "Your latest courses. Start learning now!"
+  },
+
+  "Wishlist": {
+    "wishlistDescription": "Your favorite courses. Start learning now!",
+    "noWishlist": "No courses in your wishlist",
+    "noWishlistDescription": "You haven’t added any courses to your wishlist yet. 🚀 Find the right courses for you and add them to your wishlist. 💡"
+  },
+
+  "BankAccounts": {
+    "bankAccounts": "Bank Accounts",
+    "bankAccountsDescription": "Here you can see your bank account details. You can add or remove them.",
+    "cardHolder": "Card Holder",
+    "validTill": "Valid Until"
+  },
+
+  "CreditCards": {
+    "creditCardsDescription": "Your credit card information. You can add or remove them.",
+    "expDate": "Expiry Date",
+    "addPaymentMethod": "Add Payment Method",
+    "fullName": "Full Name",
+    "address": "Address",
+    "city": "City",
+    "zipCode": "ZIP Code"
+  },
+
+  "Payment": {
+    "paymentError": "Error verifying your payment details:",
+    "payNow": "Pay Now",
+    "invoice": "Invoice",
+    "status": "Status",
+    "amount": "Amount",
+    "applyCoupon": "Apply Coupon",
+    "applyCouponDescription": "If you have a coupon code, enter it here.",
+    "couponCode": "Coupon Code",
+    "apply": "Apply",
+    "appliedCoupon": "Applied Coupon"
+  },
+
+  "InstructorForm": {
+    "becomeInstructor": "Become an Instructor",
+    "becomeInstructorDescription": "Teach what you love. Reach millions of students around the world. We provide the tools and skills you need to teach what you love.",
+    "basicInformation": "Basic Information",
+    "basicInformationDescription": "We’re excited to have you on board! Fill out the form below to get started.",
+    "emailAddress": "Email Address",
+    "mobilePhone": "Mobile Phone",
+    "nextStep": "Next Step",
+    "socialMedia": "Social Media",
+    "portfolioWebsite": "Portfolio Website",
+    "bioAndProfile": "Bio and Profile",
+    "yourJob": "Your Job",
+    "bio": "Bio",
+    "bioPlaceholder": "Tell us about yourself",
+    "thanksSubmission": "Thank you for your submission.",
+    "thanksSubmissionDescription1": "We will review your request and get back to you soon.",
+    "thanksSubmissionDescription2": "Check notifications for updates."
+  },
+
+  "Notifications": {
+    "notification": "Notification",
+    "allInstructors": "All Instructors",
+    "allInstructorsDescription": "View all instructors and their courses. This is the list of all instructors.",
+    "courses": "Courses",
+    "singleInstructor": "Single Instructor",
+    "instructor": "Instructor",
+    "admin": "Admin",
+    "noNotifications": "No notifications to display",
+    "noNotificationsDescription": "You haven’t received any notifications yet. 🚀 Coming soon! 💡",
+    "clearAll": "Clear All",
+    "notifications": "Notifications",
+    "notificationDescription": "Updates and news about your account and orders",
+    "user": "User",
+    "messageRoleChanged": "Your role has been changed",
+    "messageDeleteInstructor": "Your instructor account has been deleted.",
+    "messageYoureAdmin": "You are now assigned as an admin.",
+    "messageYoureNotAdmin": "You are no longer an admin.",
+    "messageReviewFlagged": "Your review has been flagged. Check your review page for details.",
+    "messageCourseUnpublished": "Your course is unpublished. Check your course page for details.",
+    "messageCoursePublished": "Your course has been published. Check your course page for details.",
+    "messageWelcome": "Welcome to our platform. We’re excited to have you on board!",
+    "messageProfileUpdated": "Your profile has been updated.",
+    "messageInstructorApproved": "Thank you for your application. Your request to become an instructor will be reviewed soon.",
+    "messageCoursePurchased": "Congratulations! You have successfully purchased a course. Check your dashboard for details.",
+    "messageCourseSold": "Congratulations! Your course has been purchased. Check your dashboard for details.",
+    "messageSendReview": "Thank you for your review. It will be published soon.",
+    "messageUpdateReview": "Your review has been updated."
+  },
+
+  "FreeLessons": {
+    "freeLessons": "Free Lessons",
+    "checking": "Checking",
+    "pleaseWait": "Please wait while we update your information",
+    "notFound": "No free lessons found"
+  },
+
+  "ChatTools": {
+    "conversation": "Conversation",
+    "generateCode": "Generate Code",
+    "generateImage": "Generate Image",
+    "howCanIHelp": "How can I help you?",
+    "conversationDescr": "Ask me anything and I will try to help you. The conversation is private and secure. I do not store any information. I’m here to assist you.",
+    "conversationPlaceholder": "How to calculate the radius of a circle?",
+    "codeDescription": "Ask me anything and I will try to help you. If you want me to generate code, provide the necessary details.",
+    "codePlaceholder": "How to generate a random number?",
+    "imageDescription": "Ask me for any image you want generated. The conversation is private and secure. I do not store any information. I’m here to assist you.",
+    "imagePlaceholder": "What can I ask to generate an image?",
+    "photo": "Photo",
+    "photos": "Photos",
+    "timeRead": "minute read"
+  }
 }

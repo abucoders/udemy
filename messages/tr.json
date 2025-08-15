@@ -1,26 +1,28 @@
 {
   "HomePage": {
-    "title": "Merhaba dünya!",
-    "about": "Hakkında sayfasına git"
+    "title": "Merhaba!",
+    "about": "Hakkında sayfasına hoş geldiniz"
   },
 
   "NavbarLink": {
-    "navLink1": "Anasayfa",
+    "navLink1": "Ana Sayfa",
     "navLink2": "Kurslar",
     "navLink3": "Bloglar",
     "navLink4": "İletişim"
   },
 
   "manageAccount": "Hesabı yönet",
-  "logIn": "Giriş yap",
   "logout": "Çıkış Yap",
-  "signUp": "Kaydol",
+  "logIn": "Giriş Yap",
+  "signUp": "Kayıt Ol",
   "cyrrentLng": "Türkçe",
 
   "Hero": {
-    "title": "Kariyerinizi yönlendirecek becerileri",
-    "titleSpan": "öğrenin",
-    "description": "Dünyanın önde gelen uzmanlarından ücretsiz online kurslar. Bugün 17 milyon öğrenciye katılın"
+    "title": "Modern meslekleri öğrenmek için gerekli becerilere",
+    "titleSpan": "sahip olun",
+    "description": "Dünyanın en çok talep gören teknolojilerini ücretsiz olarak online öğrenin. Bugünden öğrenmeye başlayın!",
+    "joinForFree": "Ücretsiz Katıl",
+    "findCourses": "Kursları Bul"
   },
 
   "Blog": {
@@ -28,5 +30,254 @@
     "description": "Kurslarımız ve eğitmenlerimiz hakkında daha fazla bilgi edinmek için en son bloglarımızı okuyun."
   },
 
-  "findCourses": "Kursları Bul"
+  "ExploreCourse": {
+    "title": "Popüler Kurslara Göz Atın",
+    "description": "Sizin için tasarlanmış kurs dizaynları"
+  },
+
+  "Categorie": {
+    "cateogry1": "Tümü",
+    "cateogry2": "En Yeni",
+    "cateogry3": "En Düşük Fiyat",
+    "cateogry4": "En Yüksek Fiyat"
+  },
+
+  "TopCategories": {
+    "title": "En Popüler Kategoriler",
+    "description": "En popüler kategorilere göz atın",
+    "viewAll": "Tümünü Gör"
+  },
+
+  "Instructors": {
+    "learnFromBest": "En iyi eğitmenlerden öğrenin",
+    "description": "ABU.course'da dünyanın en iyi eğitmenleri, milyonlarca öğrenciye sahip.",
+    "becomeInstructor1": "İnsanlara öğrenme, gelişme ve daha fazla başarıya ulaşma konusunda yardımcı olmak ister misiniz?",
+    "becomeInstructor2": "Eğitmen Olun"
+  },
+
+  "Journey": {
+    "title": "Öğrenme yolculuğunuza bugün başlayın!",
+    "description": "Platformumuz, öğrenmenize ve gelişmenize yardımcı olmak için tasarlanmıştır. Amacımız hedeflerinize ulaşmanıza yardımcı olmaktır."
+  },
+
+  "StartLearning": {
+    "title1": "Uzmanlarla Öğrenin",
+    "title2": "Her Şeyi Öğrenin",
+    "title3": "Esnek Öğrenme",
+    "title4": "Sektör Standartları",
+    "desc1": "Platformumuz, öğrenmenize ve gelişmenize yardımcı olmak için oluşturulmuştur.",
+    "desc2": "Yeni bir beceri öğrenmek ister misiniz?",
+    "desc3": "Kendi temponuzda ve rahat bir ortamda öğrenin.",
+    "desc4": "Kurslarımız sektör standartlarına uygun olarak hazırlanmıştır."
+  },
+
+  "Footer": {
+    "pages": "Sayfalar",
+    "contacts": "İletişim",
+    "copyright": "Tüm hakları saklıdır"
+  },
+
+  "CourseFilters": {
+    "level1": "Tümü",
+    "level2": "Başlangıç",
+    "level3": "Orta",
+    "level4": "İleri",
+    "level5": "Uzman",
+    "sortBy": "Sırala:",
+    "filter": "Filtre",
+    "level": "Seviye"
+  },
+
+  "CourseList": {
+    "allCourses": "Tüm Kurslar",
+    "allCourseDescription": "Öğrenmeniz ve gelişmeniz için kapsamlı kurslar sunuyoruz.",
+    "result1": "Gösteriliyor",
+    "result2": "toplam sonuç",
+    "results": "Sonuçlar",
+    "loadMore": "Daha Fazla Yükle",
+    "noCourses": "Gösterilecek kurs bulunmuyor",
+    "noCourseDescription": "Size uygun kursları bulun! 🚀 Şu anda aradığınız kriterlere uygun kursumuz bulunmuyor. Çok yakında eklenecek! 💡"
+  },
+
+  "CourseDetails": {
+    "students": "Öğrenciler",
+    "lastUpdated": "Son Güncelleme",
+    "whatYouWillLearn": "Neler Öğreneceksiniz",
+    "courseContent": "Kurs İçeriği",
+    "courseForWhom": "Kurs hangi kategoriye",
+    "reviewCourse": "Bu kursu değerlendirin",
+    "review": "değerlendirme",
+    "lessons": "Dersler",
+    "durations": "Süre",
+    "skillLevel": "Yetenek Seviyesi",
+    "language": "Dil",
+    "certificate": "Sertifika",
+    "fullLifetime": "Ömür Boyu Erişim",
+    "hours": "saat",
+    "minutes": "dakika",
+    "numberOfModules": "Modül Sayısı",
+    "numberOfLessons": "Ders Sayısı",
+    "courseDuration": "Kurs Süresi",
+    "category": "Kategori",
+    "requirements": "Gereksinimler",
+    "youMayLike": "Bunları da beğenebilirsiniz",
+    "addToCart": "Sepete Ekle",
+    "buyNow": "Hemen Satın Al",
+    "guarantee": "30 Gün Para İade Garantisi"
+  },
+
+  "Reviews": {
+    "noReviews": "Gösterilecek yorum bulunmuyor",
+    "noReviewsDescription": "Bu kurs için gösterilecek yorum bulunmuyor. 🚀 İlk yorumu siz bırakın. Her geri bildirim bizim için önemlidir! 💡",
+    "changeReview": "Fikrinizi değiştirip bu kursu yeniden değerlendirebilirsiniz",
+    "whyReview": "Neden bu puanı verdiniz?",
+    "rateCourse": "Bu kursu nasıl değerlendiriyorsunuz?",
+    "reviewPlaceholder": "Bu kurs hakkında düşüncelerinizi bırakın. Size uygun mu?",
+    "submit": "Gönder",
+    "change": "Düzenle",
+    "alreadyAdded": "Kurs zaten eklendi"
+  },
+
+  "Cart": {
+    "shoppingCart": "Alışveriş Sepeti",
+    "youHave": "Sepetinizde",
+    "itemsInCart": "ürün var",
+    "cartEmpty": "Sepetiniz boş",
+    "cartDescription": "Henüz sepetinize herhangi bir ürün eklemediniz.",
+    "controlsResult": "Sepetinizdeki ürünleri yönetin.",
+    "subtotal": "Ara Toplam",
+    "taxes": "Vergi",
+    "total": "Toplam (Vergi dahil)",
+    "checkout": "Satın Al",
+    "fillDetails": "Siparişi tamamlamak için bilgilerinizi girin.",
+    "orders": "Siparişler",
+    "reviewItems": "Sepetinizdeki ürünleri inceleyin.",
+    "orderCompleted": "Siparişiniz tamamlandı!",
+    "thanksOrder": "Teşekkürler. Siparişiniz alındı.",
+    "order": "Sipariş Numarası",
+    "date": "Tarih",
+    "totals": "Toplam",
+    "paymentMethod": "Ödeme Yöntemi"
+  },
+
+  "Dashboard": {
+    "dashboard": "Kontrol Paneli",
+    "myCourses": "Kurslarım",
+    "wishlist": "İstek Listesi",
+    "creditCards": "Kredi Kartları",
+    "reviews": "Yorumlar",
+    "settings": "Ayarlar",
+    "welcomeDashboard": "Panelinize hoş geldiniz",
+    "expenses": "Giderler",
+    "cards": "Kartlar",
+    "myCoursesDescription": "En son kurslarınız. Hemen öğrenmeye başlayın!"
+  },
+
+  "Wishlist": {
+    "wishlistDescription": "Favori kurslarınız. Hemen öğrenmeye başlayın!",
+    "noWishlist": "İstek listenizde hiç kurs yok",
+    "noWishlistDescription": "Henüz isteğinize herhangi bir kurs eklemediniz. 🚀 Size uygun kursları bulun ve istek listenize ekleyin. 💡"
+  },
+
+  "BankAccounts": {
+    "bankAccounts": "Banka Hesapları",
+    "bankAccountsDescription": "Burada banka hesap bilgileriniz bulunmaktadır. Bunları ekleyebilir veya silebilirsiniz.",
+    "cardHolder": "Kart Sahibi",
+    "validTill": "Son Kullanma Tarihi"
+  },
+
+  "CreditCards": {
+    "creditCardsDescription": "Kredi kartı bilgileriniz. Bunları ekleyebilir veya silebilirsiniz.",
+    "expDate": "Son Kullanma Tarihi",
+    "addPaymentMethod": "Ödeme Yöntemi Ekle",
+    "fullName": "Tam Adı",
+    "address": "Adres",
+    "city": "Şehir",
+    "zipCode": "Posta Kodu"
+  },
+
+  "Payment": {
+    "paymentError": "Ödeme bilgileriniz doğrulanırken hata oluştu:",
+    "payNow": "Şimdi Öde",
+    "invoice": "Fatura",
+    "status": "Durum",
+    "amount": "Tutar",
+    "applyCoupon": "Kupon Uygula",
+    "applyCouponDescription": "Kullanmak için bir kupon kodunuz varsa, giriniz.",
+    "couponCode": "Kupon Kodu",
+    "apply": "Uygula",
+    "appliedCoupon": "Uygulanan kupon"
+  },
+
+  "InstructorForm": {
+    "becomeInstructor": "Eğitmen Ol",
+    "becomeInstructorDescription": "Sevdiğiniz şeyleri öğretin. Dünyadaki milyonlarca öğrenciye ulaşın. Biz, sevdiğiniz şeyleri öğretmeniz için araçlar ve beceriler sunuyoruz.",
+    "basicInformation": "Temel Bilgiler",
+    "basicInformationDescription": "Aramıza katıldığınız için mutluyuz! Başlamak için aşağıdaki formu doldurun.",
+    "emailAddress": "E-posta Adresi",
+    "mobilePhone": "Cep Telefonu",
+    "nextStep": "Sonraki Adım",
+    "socialMedia": "Sosyal Medya",
+    "portfolioWebsite": "Portföy Web Sitesi",
+    "bioAndProfile": "Biyografi ve Profil",
+    "yourJob": "Mesleğiniz",
+    "bio": "Biyografi",
+    "bioPlaceholder": "Kendiniz hakkında bilgi verin",
+    "thanksSubmission": "Başvurunuz için teşekkürler.",
+    "thanksSubmissionDescription1": "Başvurunuzu inceleyeceğiz ve en kısa sürede size dönüş yapacağız.",
+    "thanksSubmissionDescription2": "Güncellemeler için bildirimlerinizi kontrol edin."
+  },
+
+  "Notifications": {
+    "notification": "Bildirim",
+    "allInstructors": "Tüm Eğitmenler",
+    "allInstructorsDescription": "Tüm eğitmenleri ve kurslarını görün. Bu, tüm eğitmenlerin listesidir.",
+    "courses": "Kurslar",
+    "singleInstructor": "Tek Eğitmen",
+    "instructor": "Eğitmen",
+    "admin": "Admin",
+    "noNotifications": "Gösterilecek bildirim yok",
+    "noNotificationsDescription": "Henüz herhangi bir bildirim almadınız. 🚀 Beklemede! 💡",
+    "clearAll": "Tümünü Temizle",
+    "notifications": "Bildirimler",
+    "notificationDescription": "Hesabınız ve siparişleriniz hakkında haberler ve güncellemeler",
+    "user": "Kullanıcı",
+    "messageRoleChanged": "Rolünüz değiştirildi",
+    "messageDeleteInstructor": "Eğitmen hesabınız silindi.",
+    "messageYoureAdmin": "Artık admin olarak seçildiniz.",
+    "messageYoureNotAdmin": "Artık admin değilsiniz.",
+    "messageReviewFlagged": "Yorumunuz işaretlendi. Daha fazla bilgi için yorum sayfanızı kontrol edin.",
+    "messageCourseUnpublished": "Kursunuz yayınlanmadı. Daha fazla bilgi için kurs sayfanızı kontrol edin.",
+    "messageCoursePublished": "Kursunuz yayınlandı. Daha fazla bilgi için kurs sayfanızı kontrol edin.",
+    "messageWelcome": "Platformumuza hoş geldiniz. Aramıza katıldığınız için mutluyuz!",
+    "messageProfileUpdated": "Profiliniz güncellendi.",
+    "messageInstructorApproved": "Başvurunuz için teşekkürler. Eğitmen olma başvurunuz kısa sürede incelenecek.",
+    "messageCoursePurchased": "Tebrikler! Kursu başarıyla satın aldınız. Daha fazla bilgi için panelinizi kontrol edin.",
+    "messageCourseSold": "Tebrikler! Kursunuz satın alındı. Daha fazla bilgi için panelinizi kontrol edin.",
+    "messageSendReview": "Yorumunuz için teşekkürler. Yakında yayınlanacak.",
+    "messageUpdateReview": "Yorumunuz güncellendi."
+  },
+
+  "FreeLessons": {
+    "freeLessons": "Ücretsiz Dersler",
+    "checking": "Kontrol Ediliyor",
+    "pleaseWait": "Bilgileriniz güncellenirken lütfen bekleyin",
+    "notFound": "Ücretsiz ders bulunamadı"
+  },
+
+  "ChatTools": {
+    "conversation": "Sohbet",
+    "generateCode": "Kod Oluştur",
+    "generateImage": "Görsel Oluştur",
+    "howCanIHelp": "Size nasıl yardımcı olabilirim?",
+    "conversationDescr": "Bana istediğiniz her şeyi sorabilirsiniz, size yardımcı olmak için buradayım. Sohbet gizlidir ve güvenlidir. Bilgilerinizi saklamam.",
+    "conversationPlaceholder": "Dairenin yarıçapı nasıl hesaplanır?",
+    "codeDescription": "Bana kodla ilgili istediğiniz her şeyi sorabilirsiniz. Kod oluşturmak isterseniz gerekli bilgileri verin.",
+    "codePlaceholder": "Rastgele sayı nasıl üretilir?",
+    "imageDescription": "Bana istediğiniz şekilde görsel oluşturabilirim. Sohbet gizlidir ve güvenlidir. Bilgilerinizi saklamam.",
+    "imagePlaceholder": "Görsel oluşturmak için ne sorabilirim?",
+    "photo": "Fotoğraf",
+    "photos": "Fotoğraflar",
+    "timeRead": "dakika okuma"
+  }
 }

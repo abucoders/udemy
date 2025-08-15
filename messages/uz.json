@@ -20,7 +20,9 @@
   "Hero": {
     "title": "Zamonaviy kasblarni o'rganish uchun ko'nikmalarga",
     "titleSpan": "ega bo'ling",
-    "description": "Dunyaning eng yuqori ta'lab ko'p texnalogiyalarni onlayn bepul o'rganing. Bugundan o'rganishni boshlang!"
+    "description": "Dunyaning eng yuqori ta'lab ko'p texnalogiyalarni onlayn bepul o'rganing. Bugundan o'rganishni boshlang!",
+    "joinForFree": "Bepul qo'shiling",
+    "findCourses": "Kurslarni toping"
   },
 
   "Blog": {
@@ -28,5 +30,254 @@
     "description": "Kurslarimiz va o'qituvchilarimiz haqida ko'proq ma'lumot olish uchun eng so'nggi bloglarimizni o'qing."
   },
 
-  "findCourses": "Kurslarni toping"
+  "ExploreCourse": {
+    "title": "Mashhur Kurslarni Ko'rib Chiqing",
+    "description": "Siz uchun mo'ljallangan kurs dizaynlari"
+  },
+
+  "Categorie": {
+    "cateogry1": "Hammasi",
+    "cateogry2": "Eng yangi",
+    "cateogry3": "Eng past narx",
+    "cateogry4": "Eng yuqori narx"
+  },
+
+  "TopCategories": {
+    "title": "Eng Yuqori Kategoriyalar",
+    "description": "Eng yuqori kategoriyalarni ko'rib chiqing",
+    "viewAll": "Hammasini ko'ring"
+  },
+
+  "Instructors": {
+    "learnFromBest": "Eng yaxshi o'qituvchilardan o'rganing",
+    "description": "ABU.course da dunyodagi eng yaxshi o'qituvchilar, milyonlab o'quvchilariga ega.",
+    "becomeInstructor1": "Odamlarga o'rganishga, o'sishga va yana ko'proq yutuqlarga yordam bera olmoqchimisiz?",
+    "becomeInstructor2": "O'qituvchi bo'ling"
+  },
+
+  "Journey": {
+    "title": "O'quv sayohatingizni bugun boshlang!",
+    "description": "Bizning platformamiz sizga o'rganish va o'sishda yordam bera olish uchun mo'ljallangan. Bizning maqsadimiz sizning maqsadlaringizga erishishga yordam berish."
+  },
+
+  "StartLearning": {
+    "title1": "Mutaxassislar bilan O'rganing",
+    "title2": "Har Qanday Narsani O'rganing",
+    "title3": "Moslashuvchan O'rganish",
+    "title4": "Sanoat Standartlari",
+    "desc1": "Bizning platformamiz sizga o'rganish va o'sishda yordam berish uchun yaratilgan.",
+    "desc2": "Siz yangi mahoratni o'rganishni xohlaysizmi?",
+    "desc3": "O'z tempingizda qulay joyda o'rganing.",
+    "desc4": "Bizning kurslarimiz standartlarga mos ravishda ishlab chiqilgan."
+  },
+
+  "Footer": {
+    "pages": "Sahifalar",
+    "contacts": "Aloqa",
+    "copyright": "Barcha huquqlar himoyalangan"
+  },
+
+  "CourseFilters": {
+    "level1": "Hammasi",
+    "level2": "Boshlang'ich",
+    "level3": "O'rta",
+    "level4": "Daraja",
+    "level5": "Mutaxassis",
+    "sortBy": "Tartiblash Bo'yicha:",
+    "filter": "Filtr",
+    "level": "Daraja"
+  },
+
+  "CourseList": {
+    "allCourses": "Barcha Kurslar",
+    "allCourseDescription": "Siz o'rganish va rivojlanish uchun murakkab kurslar taklif etamiz.",
+    "result1": "Ko'rsatilmoqda",
+    "result2": "jami natijalar",
+    "results": "Natijalar",
+    "loadMore": "Yana yuklash",
+    "noCourses": "Ko'rsatish uchun hech qanday kurslar yo'q",
+    "noCourseDescription": "Sizga mos kurslarni toping! 🚀 Biz hozircha so'rovlaringizga mos keladigan hech qanday kursimiz yo'q. Tez orada qo'shiladi! 💡"
+  },
+
+  "CourseDetails": {
+    "students": "O'quvchilar",
+    "lastUpdated": "So'nggi yangilanish",
+    "whatYouWillLearn": "Nimalarni o'rganasiz",
+    "courseContent": "Kursning mazmuni",
+    "courseForWhom": "Kurs qaysi kategoriyaga",
+    "reviewCourse": "Ushbu kursni baholash",
+    "review": "baholash",
+    "lessons": "Darslar",
+    "durations": "Davom",
+    "skillLevel": "Kasb darajasi",
+    "language": "Til",
+    "certificate": "Sertifikat",
+    "fullLifetime": "To'liq umrlik kirish",
+    "hours": "soat",
+    "minutes": "daqiqa",
+    "numberOfModules": "Modullar soni",
+    "numberOfLessons": "Darslar soni",
+    "courseDuration": "Kurs davomiyligi",
+    "category": "Kategoriya",
+    "requirements": "Talablar",
+    "youMayLike": "Sizga Yoqishi mumkin",
+    "addToCart": "Savatchaga qo'shish",
+    "buyNow": "Hozir sotib olish",
+    "guarantee": "30-kunlik pul qaytarib olish kafolati"
+  },
+
+  "Reviews": {
+    "noReviews": "Ko'rsatish uchun hech qanday sharhlar mavjud emas",
+    "noReviewsDescription": "Ushbu kurs uchun ko'rsatish uchun hech qanday sharhlar mavjud emas. 🚀 Ushbu kursga birinchi sharhni qoldiring. Har bir aloqa biz uchun muhim! 💡",
+    "changeReview": "Fikringizni o'zgartirib, ushbu kursni baholashingiz mumkin",
+    "whyReview": "Nega reyting bergansiz?",
+    "rateCourse": "Ushbu kursni qanday baholayapsiz?",
+    "reviewPlaceholder": "Ushbu kurs haqida fikrlaringizni qoldiring. U sizga mos keladimi?",
+    "submit": "Jo'natish",
+    "change": "Tahrirlash",
+    "alreadyAdded": "Kurs allaqachon qo'shilgan"
+  },
+
+  "Cart": {
+    "shoppingCart": "Xarid savati",
+    "youHave": "Sizda",
+    "itemsInCart": "mahsulotlar savatingizda mavjud",
+    "cartEmpty": "Sizning savatingiz bo'sh",
+    "cartDescription": "Aniqroq siz hali hech qanday mahsulotni savatingizga qo'shmagansiz.",
+    "controlsResult": "Savatingizdagi mahsulotlarni boshqarish.",
+    "subtotal": "Jami",
+    "taxes": "Soliq",
+    "total": "Umumiy (Soliq bilan)",
+    "checkout": "Tashrif buyurish",
+    "fillDetails": "Buyurtmani tugatish uchun ma'lumotlaringizni kiriting.",
+    "orders": "Buyurtmalar",
+    "reviewItems": "Savatingizdagi mahsulotlarni ko'rib chiqing.",
+    "orderCompleted": "Sizning buyurtmangiz yakunlandi!",
+    "thanksOrder": "Rahmat. Sizning buyurtmangiz qabul qilindi.",
+    "order": "Buyurtma raqami",
+    "date": "Sana",
+    "totals": "Umumiy",
+    "paymentMethod": "To'lov usuli"
+  },
+
+  "Dashboard": {
+    "dashboard": "Boshqaruv paneli",
+    "myCourses": "Mening kurslarim",
+    "wishlist": "Istaklar ro'yxati",
+    "creditCards": "Kredit kartalari",
+    "reviews": "Izohlar",
+    "settings": "Sozlamalar",
+    "welcomeDashboard": "Panelingizga xush kelibsiz",
+    "expenses": "Xarajatlar",
+    "cards": "Kartalar",
+    "myCoursesDescription": "Eng so'nggi kurslaringiz. Endi o'rganishga boshlang!"
+  },
+
+  "Wishlist": {
+    "wishlistDescription": "Sevimli kurslaringiz. Endi o'rganishga boshlang!",
+    "noWishlist": "Istaklar ro'yxatingizda hech qanday kurslar yo'q",
+    "noWishlistDescription": "Siz hali istaklar ro'yxatingizga hech qanday kursni qo'shmagansiz. 🚀 Sizga mos kurslarni toping va ularni istaklar ro'yxatingizga qo'shing. 💡"
+  },
+
+  "BankAccounts": {
+    "bankAccounts": "Bank hisoblar",
+    "bankAccountsDescription": "Shu yerda bank hisoblaringizning ma'lumotlari mavjud. Siz ularni qo'shishingiz yoki o'chirishingiz mumkin.",
+    "cardHolder": "Karta egasi",
+    "validTill": "Amal qilish muddati"
+  },
+
+  "CreditCards": {
+    "creditCardsDescription": "Kredit kartalar ma'lumotlaringiz. Siz ularni qo'shishingiz yoki o'chirishingiz mumkin.",
+    "expDate": "Amal qilish muddati",
+    "addPaymentMethod": "To'lov usulini qo'shish",
+    "fullName": "To'liq ism",
+    "address": "Manzil",
+    "city": "Shahar",
+    "zipCode": "Pochta indeksi"
+  },
+
+  "Payment": {
+    "paymentError": "To'lov ma'lumotlaringizni tasdiqlashda xatolik:",
+    "payNow": "Hozir to'lash",
+    "invoice": "Hisob",
+    "status": "Status",
+    "amount": "Miqdori",
+    "applyCoupon": "Kuponni qo'llash",
+    "applyCouponDescription": "Agar sizda foydalanish uchun kupon kodi bo'lsa, uni kiriting.",
+    "couponCode": "Kupon kodi",
+    "apply": "Qo'llash",
+    "appliedCoupon": "Qo'llangan kupon"
+  },
+
+  "InstructorForm": {
+    "becomeInstructor": "O'qituvchi bo'ling",
+    "becomeInstructorDescription": "Siz sevib o'qitgan narsalarni o'qiting. Dunyo bo'ylab millionlar ta o'quvchiga yetishing. Biz, sizning sevib o'qitgan narsalarni o'qitishingiz uchun vositalarni va ko'nikmalarni taqdim etamiz.",
+    "basicInformation": "Asosiy ma'lumot",
+    "basicInformationDescription": "Sizni on boardga olishimizdan xursandmiz! Boshlash uchun quyidagi formani to'ldiring.",
+    "emailAddress": "Elektron pochta manzili",
+    "mobilePhone": "Mobil telefon",
+    "nextStep": "Keyingi qadam",
+    "socialMedia": "Ijtimoiy tarmoqlar",
+    "portfolioWebsite": "Portfolio veb-sayti",
+    "bioAndProfile": "Bio va profil",
+    "yourJob": "Sizning ishingiz",
+    "bio": "Bio",
+    "bioPlaceholder": "O'z haqingiz haqida ma'lumot bering",
+    "thanksSubmission": "Murojaatingiz uchun rahmat.",
+    "thanksSubmissionDescription1": "Biz, murojaatingizni ko'rib chiqamiz va tez orada sizga javob beramiz.",
+    "thanksSubmissionDescription2": "Yangilanishlar uchun bildirishlarni tekshiring."
+  },
+
+  "Notifications": {
+    "notification": "Bildirishnoma",
+    "allInstructors": "Barcha o'qituvchilar",
+    "allInstructorsDescription": "Barcha o'qituvchilarni va ularning kurslarini ko'ring. Bu, barcha o'qituvchilar ro'yxati.",
+    "courses": "Kurslar",
+    "singleInstructor": "Bironta o'qituvchi",
+    "instructor": "O'qituvchi",
+    "admin": "Admin",
+    "noNotifications": "Ko'rsatiladigan bildirishnomalar yo'q",
+    "noNotificationsDescription": "Siz hali hech qanday bildirishnomani olishmadingiz. 🚀 Kutilmoqda! 💡",
+    "clearAll": "Barchasini tozalash",
+    "notifications": "Bildirishnomalar",
+    "notificationDescription": "Hisobingiz va buyurtmalaringiz haqida yangiliklar va yangilanishlar",
+    "user": "Foydalanuvchi",
+    "messageRoleChanged": "Sizning rolingiz o'zgartirildi",
+    "messageDeleteInstructor": "Sizning o'qituvchilik hisobingiz o'chirildi.",
+    "messageYoureAdmin": "Hozir siz admin sifatida tanlandingiz.",
+    "messageYoureNotAdmin": "Siz artik admin emassiz.",
+    "messageReviewFlagged": "Sizning izohingiz belgilandi. Batafsil ma'lumotlar uchun, izoh sahifangizni tekshiring.",
+    "messageCourseUnpublished": "Sizning kursingiz nashr qilingan emas. Batafsil ma'lumotlar uchun, kurs sahifangizni tekshiring.",
+    "messageCoursePublished": "Sizning kursingiz nashr qilindi. Batafsil ma'lumotlar uchun, kurs sahifangizni tekshiring.",
+    "messageWelcome": "Bizning platformamizga xush kelibsiz. Sizni on boardga olishimizdan xursandmiz!",
+    "messageProfileUpdated": "Sizning profiliz yangilandi.",
+    "messageInstructorApproved": "Murojaatingiz uchun rahmat. O'qituvchi bo'lish uchun murojaatingiz tez orada ko'rib chiqiladi.",
+    "messageCoursePurchased": "Tabriklaymiz! Siz muvaffaqiyatli kursni sotib olgansiz. Batafsil ma'lumotlar uchun, asosiy panelingizni tekshiring.",
+    "messageCourseSold": "Tabriklaymiz! Sizning kursingiz sotib olindi. Batafsil ma'lumotlar uchun, asosiy panelingizni tekshiring.",
+    "messageSendReview": "Izohingiz uchun rahmat. U tez orada chop etiladi.",
+    "messageUpdateReview": "Sizning izohingiz yangilandi."
+  },
+
+  "FreeLessons": {
+    "freeLessons": "Bepul darslar",
+    "checking": "Tekshirilmoqda",
+    "pleaseWait": "Ma'lumotlaringizni yangilash jarayonida kuting",
+    "notFound": "Bepul dars topilmadi"
+  },
+
+  "ChatTools": {
+    "conversation": "Muhokama",
+    "generateCode": "Kod yaratish",
+    "generateImage": "Rasm yaratish",
+    "howCanIHelp": "Sizga qanday yordam bera olishim mumkin?",
+    "conversationDescr": "Menga istalgan narsani so'rang va men sizga yordam bera harakat qilib ko'raman. Muhokama maxfiy va xavfsiz. Men hech qanday ma'lumotni saqlamayman. Sizga yordam berish uchun men bu erda.",
+    "conversationPlaceholder": "Doira radiusini qanday hisoblash mumkin?",
+    "codeDescription": "Menga istalgan narsani so'rang va men sizga yordam bera harakat qilib ko'raman. Agar kod yaratishni istasangiz, kerakli ma'lumotlarni taqdim qiling.",
+    "codePlaceholder": "Tasodifiy sonni qanday yaratish mumkin?",
+    "imageDescription": "Menga istalgan narsani so'ragan holda rasm yarating. Men sizga yordam bera harakat qilib ko'raman. Muhokama maxfiy va xavfsiz. Men hech qanday ma'lumotni saqlamayman. Sizga yordam berish uchun men bu erda.",
+    "imagePlaceholder": "Rasm yaratish uchun nima so'ray olishim kerak.",
+    "photo": "Rasmi",
+    "photos": "Rasmlar",
+    "timeRead": "daqiqa o`qish"
+  }
 }
