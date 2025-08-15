@@ -39,7 +39,7 @@ const Hero = () => {
 
             <Link href={"/courses"}>
               <Button variant={"outline"} size={"lg"} rounded={"full"}>
-                {t("findCourses")}
+                {t("Hero.findCourses")}
               </Button>
             </Link>
           </div>

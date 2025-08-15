@@ -5,3 +5,16 @@ export interface ChildProps {
 export interface LngParams {
   params: Promise<{ locale: string }>;
 }
+
+// Course interface
+export interface ICourse {
+  title: string;
+  previewImage: string;
+  level: string;
+  author: {
+    image: string;
+    name: string;
+  };
+  oldPrice: number;
+  currentPrice: number;
+}
