@@ -31,7 +31,7 @@ const FeaturedCourses = () => {
           </p>
         </div>
 
-        <div className="max-md:bg-primary flex items-center gap-1 self-end max-md:mt-4 max-md:w-full max-md:rounded-full max-md:p-2">
+        <div className="max-md:bg-primary flex items-center gap-1 self-end overflow-hidden max-md:mt-4 max-md:w-full max-md:rounded-full max-md:p-2">
           {filterCourses.map((item) => (
             <Button
               key={item.name}

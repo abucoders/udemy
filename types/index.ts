@@ -18,3 +18,9 @@ export interface ICourse {
   oldPrice: number;
   currentPrice: number;
 }
+
+// Category interface
+export interface ICategory {
+  label: string;
+  icon: string;
+}

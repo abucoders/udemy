@@ -139,3 +139,21 @@ export const courses = [
     level: "Intermidate",
   },
 ];
+
+// Categories
+export const categories = [
+  {
+    icon: "/assets/categories/digital-marketing.svg",
+    label: "Digital Marketing",
+  },
+  { icon: "/assets/categories/web-development.svg", label: "Web Development" },
+  { icon: "/assets/categories/graphic-design.svg", label: "Graphic Design" },
+  { icon: "/assets/categories/photography.svg", label: "Photography" },
+  { icon: "/assets/categories/social-sciences.svg", label: "Social Sciences" },
+  { icon: "/assets/categories/art-humanities.svg", label: "Art & Humanities" },
+  {
+    icon: "/assets/categories/personal-development.svg",
+    label: "Personal Development",
+  },
+  { icon: "/assets/categories/it-software.svg", label: "IT & Software" },
+];

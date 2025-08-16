@@ -9,14 +9,14 @@ import { Separator } from "../ui/separator";
 const CourseCard = (course: ICourse) => {
   return (
     <Link href={"/courses/nextJs"}>
-      <Card className="group w-full gap-4 py-1">
+      <Card className="group w-full gap-4 overflow-hidden py-1">
         <CardContent className="relative h-56 w-full">
           <Image
             src={course.previewImage}
             alt={course.title}
             fill
             sizes={"100%"}
-            className="object-cover"
+            className="object-cover transition-all duration-300 group-hover:scale-105"
           />
         </CardContent>
 
