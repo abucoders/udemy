@@ -24,3 +24,10 @@ export interface ICategory {
   label: string;
   icon: string;
 }
+
+// Instructors interface
+export interface IInstructor {
+  name: string;
+  image: string;
+  job: string;
+}

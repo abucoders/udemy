@@ -157,3 +157,31 @@ export const categories = [
   },
   { icon: "/assets/categories/it-software.svg", label: "IT & Software" },
 ];
+
+// Instructors
+export const instructors = [
+  {
+    name: "Abdulloyev Ulug'bek",
+    image:
+      "https://img.freepik.com/free-photo/close-up-portrait-curly-handsome-european-male_176532-8133.jpg?semt=ais_hybrid&w=740",
+    job: "Web Developer",
+  },
+  {
+    name: "Thomas Winter",
+    image:
+      "https://img.freepik.com/free-photo/happy-young-beautiful-woman-beige-t-shirt-looking-camera-smiling-broadly-standing-purple-background_141793-118804.jpg",
+    job: "Photographer",
+  },
+  {
+    name: "Emma Watson",
+    image:
+      "https://images.ctfassets.net/lh3zuq09vnm2/yBDals8aU8RWtb0xLnPkI/19b391bda8f43e16e64d40b55561e5cd/How_tracking_user_behavior_on_your_website_can_improve_customer_experience.png",
+    job: "Digital Marketer",
+  },
+  {
+    name: "John Doe",
+    image:
+      "https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg",
+    job: "Designer",
+  },
+];
