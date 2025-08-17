@@ -7,7 +7,7 @@ import { routing } from "./i18n/routing";
 const intlMiddleware = createMiddleware(routing);
 
 // Route matcher for protected routes
-const isProtectedRoute = createRouteMatcher(["/:locale/(.*)"]);
+const isProtectedRoute = createRouteMatcher(["/:locale/(.)"]);
 
 export default clerkMiddleware(async (auth, req) => {
   if (isProtectedRoute(req)) await auth.protect();
