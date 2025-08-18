@@ -9,6 +9,7 @@ import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 
 import { ThemeProvider } from "@/components/providers/theme-provider";
+import { Toaster } from "@/components/ui/sonner";
 import { routing } from "@/i18n/routing";
 import { localization } from "@/lib/utils";
 import { ChildProps } from "@/types";
@@ -63,6 +64,7 @@ export default async function RootLayout({
               disableTransitionOnChange
             >
               {children}
+              <Toaster />
             </ThemeProvider>
           </NextIntlClientProvider>
         </body>

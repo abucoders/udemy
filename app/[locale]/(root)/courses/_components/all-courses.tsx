@@ -35,7 +35,7 @@ const AllCourses = () => {
               {filterCourses.map((course) => (
                 <SelectItem
                   key={course.name}
-                  value={t(`CourseFilters.${course.name}`)}
+                  value={t(`Categorie.${course.label}`)}
                   className="max-sm:text-xs"
                 >
                   {t(`Categorie.${course.label}`)}
@@ -52,7 +52,7 @@ const AllCourses = () => {
               {filterLevels.map((course) => (
                 <SelectItem
                   key={course.name}
-                  value={t(`CourseFilters.${course.name}`)}
+                  value={t(`CourseFilters.${course.label}`)}
                   className="max-sm:text-xs"
                 >
                   {t(`CourseFilters.${course.label}`)}
