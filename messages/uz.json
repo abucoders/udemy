@@ -77,6 +77,18 @@
     "copyright": "Barcha huquqlar himoyalangan"
   },
 
+  "ContactPage": {
+    "title": "Biz bilan aloqa qiling",
+    "description": "Sizga yordam bera olish uchun bizga qo'ng'iroq qilishingiz mumkin. Agar savolingiz bo'lsa, baxtli bo'ling.",
+    "form": {
+      "title": "Aloqa forması",
+      "textArea": "Savol yoki Salom deb yozing!",
+      "email": "Elektron pochta manzili",
+      "name": "Ismingizni kiriting",
+      "send": "Yuborish"
+    }
+  },
+
   "CourseFilters": {
     "level1": "Hammasi",
     "level2": "Boshlang'ich",

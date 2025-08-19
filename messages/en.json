@@ -77,6 +77,18 @@
     "copyright": "All rights reserved"
   },
 
+  "ContactPage": {
+    "title": "Contact Us",
+    "description": "You can call us so that we can assist you. If you have any questions, feel free to ask.",
+    "form": {
+      "title": "Contact Form",
+      "textArea": "Write a question or just say Hello!",
+      "email": "Email Address",
+      "name": "Enter your name",
+      "send": "Send"
+    }
+  },
+
   "CourseFilters": {
     "level1": "All",
     "level2": "Beginner",

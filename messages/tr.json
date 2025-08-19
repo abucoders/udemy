@@ -77,6 +77,18 @@
     "copyright": "Tüm hakları saklıdır"
   },
 
+  "ContactPage": {
+    "title": "Bizimle İletişime Geçin",
+    "description": "Size yardımcı olabilmemiz için bizi arayabilirsiniz. Sorunuz varsa, çekinmeden sorun.",
+    "form": {
+      "title": "İletişim Formu",
+      "textArea": "Bir soru yazın veya sadece Merhaba deyin!",
+      "email": "E-posta Adresi",
+      "name": "Adınızı giriniz",
+      "send": "Gönder"
+    }
+  },
+
   "CourseFilters": {
     "level1": "Tümü",
     "level2": "Başlangıç",
