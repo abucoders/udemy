@@ -50,7 +50,9 @@ const TopBar = ({ label, extra, description }: Props) => {
               <BreadcrumbSeparator />
 
               <BreadcrumbItem>
-                <BreadcrumbPage>{t(extra)}</BreadcrumbPage>
+                <BreadcrumbPage className="cursor-pointer capitalize">
+                  {extra}
+                </BreadcrumbPage>
               </BreadcrumbItem>
             </>
           )}
