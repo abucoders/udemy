@@ -2,6 +2,7 @@
 
 import { SignOutButton, useUser } from "@clerk/nextjs";
 import { DropdownMenuTrigger } from "@radix-ui/react-dropdown-menu";
+import { LogOut, UserRoundCog, UserStar } from "lucide-react";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 
@@ -52,15 +53,22 @@ function UserBox() {
 
         <Separator />
 
+        <Link href={"/instructor"}>
+          <DropdownMenuItem className="text-muted-foreground w-full cursor-pointer">
+            <UserStar /> {t("instructor")}
+          </DropdownMenuItem>
+        </Link>
+
         <Link href={"/user-profile"}>
           <DropdownMenuItem className="text-muted-foreground w-full cursor-pointer">
-            {t("manageAccount")}
+            <UserRoundCog /> {t("manageAccount")}
           </DropdownMenuItem>
         </Link>
         <DropdownMenuItem
-          asChild
           className="text-muted-foreground w-full cursor-pointer"
+          variant="destructive"
         >
+          <LogOut />
           <SignOutButton>{t("logout")}</SignOutButton>
         </DropdownMenuItem>
       </DropdownMenuContent>
